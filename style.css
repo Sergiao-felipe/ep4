@@ -33,6 +33,10 @@ footer{
     padding: 2%;
 }
 
+footer h1{
+    color: white;
+}
+
 footer img{
     text-align: center;
 }
