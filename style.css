@@ -19,6 +19,15 @@ main{
     color: rgb(255, 255, 255);
 }
 
+main img{
+    text-align: center;
+}
+
+main h1{
+    align-items: center;
+    text-align: center;
+}
+
 main h2{
     color: white;
 }
@@ -230,4 +239,10 @@ fieldset{
 
 aside h3{
     text-align: center;
+}
+
+.carro21{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
