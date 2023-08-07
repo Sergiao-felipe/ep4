@@ -1,4 +1,4 @@
-header{
+ header{
     grid-area: cabe;
     background-color: #000000;
 }
@@ -17,19 +17,15 @@ main{
     grid-area: prin;
     background-color: #201f1f;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
 main img{
-    text-align: center;
-}
-
-main h1{
-    align-items: center;
-    text-align: center;
+    border-radius: 6%;
 }
 
 main h2{
-    color: white;
+    color: goldenrod;
 }
 
 main p{
@@ -42,15 +38,15 @@ footer{
     padding: 2%;
 }
 
-footer h1{
-    color: white;
-}
-
 footer img{
     text-align: center;
 }
 
 footer h4{
+    color: white;
+}
+
+footer h1{
     color: white;
 }
 
@@ -241,8 +237,21 @@ aside h3{
     text-align: center;
 }
 
-.carro21{
+.audi{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.mostruario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.div-imagem img {
+    padding: 2%; 
+    padding-top: 4%; 
+    border-radius: 15px;
 }
